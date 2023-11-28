@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS scores;
+
+CREATE TABLE scores (
+    id SERIAL PRIMARY KEY,
+    score INTEGER NOT NULL
+);
